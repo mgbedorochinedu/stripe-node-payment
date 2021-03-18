@@ -2,6 +2,8 @@ const express = require('express')
 const bodyparser = require('body-parser') 
 const path = require('path') 
 const app = express() 
+require ('dotenv').config()
+
 
 var Publishable_Key = process.env.PUBLISHABLE_SECRET_KEY
 var Secret_Key = process.env.STRIPE_SECRET_KEY
