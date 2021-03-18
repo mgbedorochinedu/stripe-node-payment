@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js -e ejs"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +17,7 @@
     "stripe": "^8.92.0"
   },
   "devDependencies": {
-    "env-cmd": "^10.1.0",
+    "-": "^0.0.1",
     "nodemon": "^2.0.7"
   }
 }
