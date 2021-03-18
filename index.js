@@ -8,7 +8,7 @@ var Secret_Key = process.env.STRIPE_SECRET_KEY
 
 const stripe = require('stripe')(Secret_Key) 
 
-const port = process.env.PORT
+const port = process.env.PORT || 3000
 
 app.use(bodyparser.urlencoded({extended:false})) 
 app.use(bodyparser.json()) 
